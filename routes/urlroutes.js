@@ -10,7 +10,7 @@ exports.geturl= async (req, res) => {
     if (item) {
       return res.redirect(item.originalUrl);
     } else {
-      return res.redirect(errorUrl);
+      return res.json("Code is not correct");
     }
   }
 

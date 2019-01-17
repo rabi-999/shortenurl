@@ -5,17 +5,35 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Hello HTML</title>
 		<link rel="stylesheet" href="/style.css">
+		<style>
+        h1
+        {
+            font: 700 40px/45px 'Open Sans', sans-serif;
+            color: Green;
+            }
+            input[type="text"]{
+                width:600px;
+                border:1px solid #000;
+                display: block;
+            }
+            form{
+                text-align: center;
+            }
+        
+        </style>
 	</head>
 	<body>
-		<h1>Hello, HTML.</h1>
-		<p>Do not use until Challenge #12</p>
+		<h1>Shoten url</h1>
+		<p>shorten your url with just code or replicate with encryption</p>
      <form action="/api/item" method="post">
       <label>Original url:</label>
-      <input type="text" name="ourl" value="John"><br>
-      <label>Last Name :</label>
-      <input type="text" name="last" value="Doe"><br><br>
+      <input type="text" name="ourl" ><br>
+      
+      <p>Please enter the valid url along with https://"
+      <br> for ex: https://mail.google.com</p>
+      
       <input type="submit" value="Submit">
     </form> 
 	</body>
 
-</html>
+</html>     
