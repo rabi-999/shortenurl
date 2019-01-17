@@ -6,7 +6,7 @@ const PORT = 7000;
 require('./models/UrlShorten');
 const app = express();
 var path = require('path');
-const mongoURI = "mongodb://dude:dude1by2@ds253831.mlab.com:53831/mongofirstpro"
+const mongoURI = "your database url"
 var bodyParser = require('body-parser');
 const connectOptions = {
   keepAlive: true,
